@@ -4,9 +4,8 @@ package ru.calculator;
 import ru.calculator.model.Operation;
 import ru.calculator.plugin_api.PluginFactory;
 import ru.calculator.view.CalculatorView;
-
 import javax.swing.*;
-import java.util.ArrayList;
+
 
 /**
  * Created by andrey-goa on 30.01.17.
