@@ -13,10 +13,10 @@ public class Plus implements Operation {
 
     @Override
     public boolean isValid(Double aDouble, Double aDouble1) {
-        if((aDouble != null) && (aDouble1 != null)){
-            return true;
+        if((aDouble == null) || (aDouble1 == null)){
+            return false;
         }
-        return false;
+        return true;
     }
 
 
